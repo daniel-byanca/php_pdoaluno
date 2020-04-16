@@ -25,13 +25,12 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          Usuarios
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Ação</a>
-          <a class="dropdown-item" href="#">Outra ação</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Algo mais aqui</a>
+          <a class="dropdown-item" href="#">Listar</a>
+          <a class="dropdown-item" href="form_usuario.php">Cadastrar</a>
+          
         </div>
       </li>
       <li class="nav-item">

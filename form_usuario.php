@@ -3,7 +3,7 @@
 <?php 
 	require 'classes/Usuario.php'; 
 	require 'classes/UsuarioDAO.php';
-	$usuario = new Categoria();
+	$usuario = new Usuario();
 	if(isset($_GET['id']) && $_GET['id'] != '') {
 		$id = $_GET['id'];
 		$usuarioDAO = new UsuarioDAO();
