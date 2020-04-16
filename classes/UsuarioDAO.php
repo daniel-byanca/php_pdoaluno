@@ -10,11 +10,15 @@ class UsuarioDAO extends Model
 
     public function insereUsuario(Usuario $usuario) {
     	$values = "null, '{$usuario->getNome()}'";
+        $values = "null, '{$usuario->getEmail()}'";
+        $values = "null, '{$usuario->getSenha()}'";
     	return $this->inserir($values);
     }
 
     public function alteraUsuario(Usuario $usuario) {
     	$values = "nome = '{$usuario->getNome()}'";
-    	$this->alterar($categoria->getId(), $values);
+        $values = "email = '{$usuario->getEmail()}'";
+        $values = "senha = '{$usuario->getSenha()}'";
+    	$this->alterar($usuario->getId(), $values);
     }
 }

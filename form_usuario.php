@@ -26,11 +26,11 @@
 			</div>
 			<div class="form-group">
 				<label for="email">Email</label>
-				<input type="text" class="form-control" name="email" id="email" required value="<?= ($usuario->getNome() != '' ? $usuario->getNome() : '') ?>">
+				<input type="text" class="form-control" name="email" id="email" required value="<?= ($usuario->getEmail() != '' ? $usuario->getEmail() : '') ?>">
 			</div>
 			<div class="form-group">
 				<label for="senha">Senha</label>
-				<input type="password" class="form-control" name="senha" id="senha" required value="<?= ($usuario->getNome() != '' ? $usuario->getNome() : '') ?>">
+				<input type="password" class="form-control" name="senha" id="senha" required value="<?= ($usuario->getSenha() != '' ? $usuario->getSenha() : '') ?>">
 			</div>
 			<div class="form-group">
 				<button type="submit" class="btn btn-primary">Salvar</button>
